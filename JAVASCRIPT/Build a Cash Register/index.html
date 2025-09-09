@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cash Register</h1>
+    <p class="instructions">
+      Enter the cash given by the customer and click "Purchase" to calculate the change.
+    </p>
+
+    <div class="register-box">
+      <label for="cash">Cash Provided by Customer ($):</label>
+      <input type="number" id="cash" placeholder="e.g., 20" />
+      <button id="purchase-btn">Purchase</button>
+    </div>
+
+    <div class="result-box">
+      <p><strong>Item Price:</strong> $19.50</p>
+      <p id="change-due" class="change-result">Status: Waiting for input...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

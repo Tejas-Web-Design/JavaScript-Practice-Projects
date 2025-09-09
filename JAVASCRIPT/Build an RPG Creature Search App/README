@@ -1,0 +1,39 @@
+RPG Creature API
+Usage
+Use the endpoint https://rpg-creature-api.freecodecamp.rocks/api/creatures to see a list of all valid creature names and ID numbers.
+
+Use the endpoint https://rpg-creature-api.freecodecamp.rocks/api/creature/{name-or-id} to get data for a creature, where {name-or-id} is the creature's name or ID number.
+
+Example Requests
+Click any of the example requests below to see its response.
+
+All valid Creatures:
+https://rpg-creature-api.freecodecamp.rocks/api/creatures
+Pyrolynx:
+https://rpg-creature-api.freecodecamp.rocks/api/creature/pyrolynx
+https://rpg-creature-api.freecodecamp.rocks/api/creature/1
+Available Creatures:
+List of available creatures 1 through 10
+ID	Name
+1	Pyrolynx
+2	Aquoroc
+3	Voltadon
+4	Floraspine
+5	Cryostag
+6	Terradon
+7	Emberapod
+8	Lunaclaw
+9	Quillquake
+10	Mystifin
+List of available creatures 11 through 20
+ID	Name
+11	Dracilume
+12	Thornaconda
+13	Frostbyte
+14	Graviboa
+15	Zephyreon
+16	Blazebore
+17	Brontogale
+18	Shadeelisk
+19	Titanule
+20	Faegis
